@@ -1,7 +1,3 @@
-Here’s a suggested `README.md` file and project description for your **SoundSaga AudioBook Player** (Assignment 3: CSC 392/492 – Mobile Application Development II):
-
----
-
 ### 📖 SoundSaga - AudioBook Player
 
 **SoundSaga** is a feature-rich audiobook player Android app that delivers an engaging listening experience through intuitive design, real-time audio controls, and seamless activity transitions. Built as part of CSC 392/492: Mobile Applications Development II, the app uses advanced Android components such as `MediaPlayer`, `ViewPager2`, `Volley`, and `SplashScreen API`.
