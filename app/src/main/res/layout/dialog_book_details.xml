@@ -1,0 +1,99 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:padding="16dp">
+
+    <!-- Image View for the book cover -->
+    <ImageView
+        android:id="@+id/book_image"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <!-- Title of the book beside the image -->
+    <TextView
+        android:id="@+id/book_title"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="16dp"
+        android:fontFamily="@font/rubik_regular"
+        android:textSize="12sp"
+        android:textStyle="bold"
+        android:textColor="#800000"
+
+        app:layout_constraintStart_toEndOf="@+id/book_image"
+        app:layout_constraintTop_toTopOf="@+id/book_image"
+        app:layout_constraintEnd_toEndOf="parent" />
+
+    <!-- Author of the book beside the image -->
+    <TextView
+        android:id="@+id/book_author"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textSize="12sp"
+        android:layout_marginStart="16dp"
+        android:fontFamily="@font/rubik_regular
+"
+        android:layout_marginLeft="5dp"
+        android:textStyle="bold"
+        android:textColor="#800000"
+        app:layout_constraintStart_toEndOf="@+id/book_image"
+        app:layout_constraintTop_toBottomOf="@+id/book_title" />
+
+    <!-- Chapters count beside the image -->
+    <TextView
+        android:id="@+id/book_chapters"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="16dp"
+        android:fontFamily="@font/rubik_regular"
+        android:layout_marginLeft="5dp"
+        android:textColor="#800000"
+        android:textSize="12sp"
+        app:layout_constraintStart_toEndOf="@+id/book_image"
+        app:layout_constraintTop_toBottomOf="@+id/book_author" />
+
+    <!-- Date of the book below the image -->
+    <TextView
+        android:id="@+id/book_date"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textColor="#800000"
+        android:fontFamily="@font/rubik_regular"
+        android:textSize="12sp"
+        android:layout_marginStart="16dp"
+        app:layout_constraintStart_toEndOf="@+id/book_title"
+        app:layout_constraintTop_toTopOf="@+id/book_title" />
+
+    <!-- Language of the book below the image -->
+    <TextView
+        android:id="@+id/book_language"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textSize="12sp"
+        android:layout_marginTop="10dp"
+        android:fontFamily="@font/rubik_regular"
+        android:textColor="#800000"
+        android:layout_marginBottom="10dp"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/book_image" />
+
+    <!-- Duration of the book below the image -->
+    <TextView
+        android:id="@+id/book_duration"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textSize="12sp"
+        android:fontFamily="@font/rubik_regular"
+        android:textColor="#800000"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/book_language" />
+
+    <!-- OK Button to close the dialog -->
+
+</androidx.constraintlayout.widget.ConstraintLayout>

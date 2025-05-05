@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <style name="CustomPopupMenu" parent="ThemeOverlay.AppCompat.Light">
+        <item name="android:popupBackground">#800000</item>
+    </style>
+    <style name="AppTitleStyle">
+        <item name="android:fontFamily">@font/rubik_black</item>
+    </style>
+
+    <!-- Style for regular TextViews -->
+    <style name="RegularTextStyle">
+        <item name="android:fontFamily">@font/rubik_regular</item>
+    </style>
+</resources>
